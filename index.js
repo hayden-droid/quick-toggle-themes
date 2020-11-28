@@ -6,9 +6,7 @@ module.exports = class QuickToggleThemes extends Plugin {
     document.addEventListener('keydown', this.onKeyDownWrapper.bind(this))
   }
 
-  pluginWillUnload () {
-    document.removeEventListener(this.onKeyDownWrapper.bind(this))
-  }
+  pluginWillUnload () { document.removeEventListener(this.onKeyDownWrapper.bind(this)) }
 
   onKeyDown (e) {
     if (e.code !== 'F7') return
@@ -22,7 +20,5 @@ module.exports = class QuickToggleThemes extends Plugin {
     this._themesEnabled = !this._themesEnabled
   }
 
-  onKeyDownWrapper (e) {
-    this.onKeyDown(e)
-  }
+  onKeyDownWrapper (e) { this.onKeyDown(e) }
 }
