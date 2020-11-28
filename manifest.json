@@ -1,6 +1,6 @@
 {
 	"name": "Quick Toggle Themes",
-	"description": "Adds a hotkey to quickly enable/disable all themes, including Quick CSS",
+	"description": "Adds a hotkey (F7) to quickly enable/disable all themes, including Quick CSS",
 	"author": "ezist#7571",
 	"version": "1.0.0",
 	"license": "ISC"
