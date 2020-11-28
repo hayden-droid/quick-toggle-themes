@@ -1,0 +1,19 @@
+{
+	"rules": {
+		"no-eval": [ "error" ],
+		"no-implied-eval": [ "error" ],
+		"no-useless-escape": [ "warn" ],
+
+		"indent": ["warn", 2],
+		"curly": ["error", "multi"],
+		"semi": ["error", "never"],
+		"no-cond-assign": ["error", "except-parens"],
+
+		"object-property-newline": ["error", { "allowAllPropertiesOnSameLine": true }],
+
+		"no-tabs": "off",
+		"prefer-const": "off",
+		"array-bracket-spacing": "off",
+		"one-var-declaration-per-line": "off"
+	}
+}
